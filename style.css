@@ -570,6 +570,10 @@ footer span a{
         top: 55px;
     }
 
+    .about .about-content .right .text span {
+        font-size: 24px;
+    }
+
     .services .title::after {
         top: 50px;
     }
@@ -588,5 +592,9 @@ footer span a{
     .services .title::after {
         top: 40px;
         font-size: 12px;
+    }
+
+    .about .about-content .right .text {
+        margin-right: 70px;
     }
 }

@@ -18,14 +18,14 @@ $(document).ready(function () {
     });
 
     var typed = new Typed('.typing', {
-        strings: ['Programador', 'Front-End', 'Desenvoledor', 'Mobile'],
+        strings: ['Programador.', 'Front-End.', 'Desenvoledor.', 'Mobile.'],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
     });
 
     var typed = new Typed('.typing-2', {
-        strings: ['Programador', 'Front-End', 'Desenvoledor', 'Mobile'],
+        strings: ['Programador.', 'Front-End.', 'Desenvoledor.', 'Mobile.'],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
