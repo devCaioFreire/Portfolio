@@ -575,6 +575,16 @@ footer span a{
     }
 
     .services .title {
-        font-size: 20px;
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 414px) {
+    .services .title {
+        font-size: 37px;
+    }
+
+    .services .title::after {
+        top: 40px;
     }
 }
