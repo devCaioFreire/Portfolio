@@ -49,6 +49,7 @@ body {
     padding: 15px 0;
     background: #5F49AC;
     box-shadow: 0px 0px 30px rgba(0, 157, 255, 0.7);
+    z-index: 2;
 }
 
 .navbar .max-width {
@@ -344,11 +345,6 @@ section .title::after {
 }
 
 /* sessao servicos */
-.services{
-    background: rgb(72,2,171);
-    background: linear-gradient(0deg, rgba(72,2,171,0.4) 0%, rgba(95,73,172,1) 40%, rgba(95,73,172,1) 100%);
-    color: rgba(255, 255, 255, 0.679);
-}
 
 .services .title::after{
     content: 'Projetos e conhecimentos';
@@ -356,6 +352,7 @@ section .title::after {
 
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 27vh;
     background: #330179ab;
     text-align: center;
     border-radius: 6px;
@@ -363,16 +360,19 @@ section .title::after {
     margin-bottom: 10px;
     cursor: pointer;
     transition: all 0.4s ease;
+    color: #ffffffad;
 }
 
 .services .serv-content .card-portfolio{
     width: calc(33% - 20px);
+    height: 27vh;
     background: #330179ab;
     text-align: center;
     border-radius: 6px;
     padding: 40px 25px;
     margin-bottom: 10px;
     cursor: pointer;
+    color: #ffffffad;
 }
 
 .services .serv-content .card:hover, .services .serv-content .card-portfolio:hover{
@@ -403,7 +403,7 @@ section .title::after {
 }
 
 .card .text-a{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     margin: 10px 0 7px 0;
     color: #ffffffad;
