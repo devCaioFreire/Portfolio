@@ -400,6 +400,13 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.card .text-a{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 7px 0;
+    color: #ffffffad;
+}
+
 /* sessao footer */
 footer{
     background: #330179ab;
