@@ -189,6 +189,7 @@ section .title {
     padding-bottom: 20px;
     position: relative;
     color: #fff;
+    z-index: -1;
 }
 
 section .title::before {
@@ -200,6 +201,7 @@ section .title::before {
     height: 5px;
     background: #4802ab;
     transform: translateX(-50%);
+    z-index: -1;
 }
 
 section .title::after {
