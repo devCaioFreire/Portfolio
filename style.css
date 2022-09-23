@@ -379,12 +379,20 @@ section .title::after {
     background: #330179;
 }
 
-.services .serv-content .card .box, .services .serv-content .card-portfolio .box{
+.services .serv-content .card .box, .services .serv-content .card-portfolio .box, .services .serv-content .card .box-logo{
     transition: all 0.4s ease;
 }
 
-.services .serv-content .card:hover .box, .services .serv-content .card-portfolio:hover .box{
+.services .serv-content .card:hover .box, .services .serv-content .card-portfolio:hover .box, .services .serv-content .card:hover .box-logo{
     transform: scale(1.1);
+}
+
+.card .box-logo{
+    margin-top: 15%;
+}
+
+.card .box-logo ion-icon{
+    font-size: 900px;
 }
 
 .services .serv-content .card ion-icon, .services .serv-content .card-portfolio ion-icon{
@@ -473,11 +481,12 @@ footer span a{
 
     .navbar .menu {
         position: fixed;
-        width: 100%;
+        width: 20%;
         height: 100vh;
         left: -100%;
         top: 0;
-        padding-left: 80px;
+        box-shadow: 0px 0px 30px rgba(0, 157, 255, 0.7);
+        padding-top: 25%;
         text-align: center;
         transition: all 0.4s ease;
         background: #4802ab;
