@@ -607,13 +607,6 @@ footer span a{
     .services .serv-content .card {
         height: 30vh;
     }
-
-    .card .text-a{
-        font-size: 15px;
-        font-weight: bold;
-        margin: 10px 0 7px 0;
-        color: #ffffffad;
-    }
 }
 
 @media (max-width: 414px) {
