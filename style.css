@@ -603,6 +603,10 @@ footer span a{
     .services .title {
         font-size: 44px;
     }
+
+    .services .serv-content .card {
+        height: 30vh;
+    }
 }
 
 @media (max-width: 414px) {
