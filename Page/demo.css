@@ -328,6 +328,15 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 30px;
     }
+
+    section .title{
+        font-size: 37px;
+    }
+
+    .video-style{
+        width: 13em;
+        margin-left: 160px;
+    }
 }
 
 @media (max-width: 507px) {
