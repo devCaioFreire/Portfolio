@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed('.typing-2', {
-        strings: ['Programador.', 'Front-End.', 'Desenvolvedor.', 'Mobile.'],
+        strings: ['Programador Front-end.', 'Desenvolvedor Mobile.'],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
